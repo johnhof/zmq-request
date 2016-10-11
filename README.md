@@ -8,7 +8,7 @@ Promise based [ØMQ](http://zeromq.org/) request client.
 Using npm:
 ```shell
 $ npm i -g zquest
-$ npm i --save lodash
+$ npm i --save zquest
 ```
 
 ## Usage
