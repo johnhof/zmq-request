@@ -4,6 +4,13 @@
 
 Promise based [ØMQ](http://zeromq.org/) request client.
 
+## Installation
+Using npm:
+```shell
+$ npm i -g zquest
+$ npm i --save lodash
+```
+
 ## Usage
 
 Zquest is designed to loosely follow the [request](https://github.com/request/request) module. It comes with several build in friendly features:
