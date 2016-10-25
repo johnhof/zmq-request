@@ -4,6 +4,13 @@
 
 Promise based [ØMQ](http://zeromq.org/) request client.
 
+## Installation
+Using npm:
+```shell
+$ npm i -g zquest
+$ npm i --save zquest
+```
+
 ## Usage
 
 Zquest is designed to loosely follow the [request](https://github.com/request/request) module. It comes with several build in friendly features:
@@ -19,6 +26,8 @@ Zquest is designed to loosely follow the [request](https://github.com/request/re
 ### Client
 
 ```javascript
+'use strict';
+
 let zquest = require('zquest');
 
 // tcp://localhost:5555
@@ -39,6 +48,8 @@ zquest({
 **NOTE** for non-blocking, see the [reflector](https://github.com/johnhof/zquest/blob/master/test/utilities/reflector.js) server used for testing
 
 ```javascript
+'use strict';
+
 let zmq = require('zmq');
 let zquest = require('zquest');
 
